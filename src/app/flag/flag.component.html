@@ -1,0 +1,32 @@
+<div id="flags" style="margin:50px; "></div>
+<section style="margin-bottom: 100px;">
+    <div class="center">
+        <h1 style="color:#FFFFFF;font-family:'Good Times'">Cyber<strong class ="x">X</strong>: Flag Portal</h1>
+    </div>
+    <form action="" method="" class="header">
+        <select id="selectName" style="margin-right:1em">
+            <option  value="" disabled selected hidden>Your Name</option>
+
+        </select>
+        <select id="selectCourseID" style="margin-right:1em">
+            <option value="" disabled selected hidden>Course ID</option>
+            <option value="P012-1">P012-1 XSS Injection</option>
+            <option value="P012-2">P012-2 Web Defacement</option>
+            <option value="P013">P013 Command Spoofing</option>
+            <option value="P014">P014 Shellshock</option>
+            <option value="P021">P021 DoS (HTTP)</option>
+            <option value="P031">P031 Bruteforce shell</option>
+            <option value="P033">P033 Bruteforce Hash</option>
+            <option value="P041">P041 Bad USB</option>
+            <option value="P042">P042 Ransomware</option>
+            <option value="P091">P091 Phishing</option>
+        </select>
+        <input type="text" id="inputFlag" placeholder="Enter the flag" autocomplete="off">
+        <button style="margin-left: 10px;" mat-raised-button color="primary" id="submitFlag"
+            onclick="return false;">Submit</button>
+        <!--<button id="viewRecord" onclick="window.open('result.php?uid=' + $('#selectName option:selected').val(),'_blank','location=yes,height=570,width=620,scrollbars=yes,status=yes');">View Record</button>-->
+    </form>
+    <div id="status" style="padding:10px;color:#c1ff87"></div>
+    <div style="padding:10px;color:#FFFFFF;text-align: center;"><a href="result.php" id="showrecord"
+            style="color:#FFFFFF;font-size:0.8em;margin-bottom: 50px">แสดงประวัติการบันทึก Flag</a></div>
+</section>

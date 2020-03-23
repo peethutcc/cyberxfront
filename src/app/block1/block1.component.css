@@ -1,0 +1,124 @@
+.pic{/*ปรับช่องว่ารูปabout*/
+	padding:25px;
+	margin-top:1px;
+	padding-top:1px;
+}
+.header{/*เปลี่ยนพื้นหลัง*/
+	
+    padding: 5px 0px;
+}
+#video{
+    text-align: center;
+    color: #333;
+}
+#sub {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1px;
+
+}
+div{
+    
+   margin-top:50px;
+    margin-bottom: 20px;
+
+}
+#video h2{
+    color: #ffffff;
+}
+#video p{
+    margin-top: 40px;
+	font-size: 30px;
+}
+.video{
+    margin: 0 auto;
+	
+}
+.strong{
+    font-weight: 400;
+    color: #ffffff
+	
+}
+.strongx{
+	font-weight: 400;
+	color:red;
+}
+.btn.btn-download {
+    padding: 10px;
+    background: white;
+    border-radius: 50px;
+    width: 250px;
+    text-align: left;
+    color: #333333;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.btn.btn-download:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn.btn-download i {
+    width: 20px;
+    font-size: 36px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+.btn.btn-download strong {
+    font-weight: 800;
+}
+.banner-text{
+    margin-top: 100px;
+    margin-left: 20px
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    /*background-color: rgb(235, 235, 235);*/
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    position: fixed;
+    background: #000000;
+    top: 0;
+    z-index: 99;
+    transition: 1s;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover { /*เปลี่ยนสีhovernav*/
+    color: #39c;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right:0;
+    font-size: 36px;
+    margin-right: 50px;
+  }
+  
+  #main {
+    transition: margin-right .5s;
+  
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

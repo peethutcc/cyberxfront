@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-card-content>
+  <form class="container" #testForm2 ="ngForm" (submit)="onSubmitreg(testForm2.value)">
+    <h1 style="text-align: center;">Cyber<strong class="strongred"> X </strong>Register </h1>
+    <div>
+      <mat-form-field>
+      <label for="exampleInputEmail1">Username</label>
+      <input ngModel name="username1" type="text" class="form-control" id="userinput12" placeholder="Enter username" >
+      </mat-form-field>
+    </div>
+    <div>
+      <label for="exampleInputPassword1">Password</label>
+      <input ngModel name="password1" type="password" class="form-control" id="feedbackinput12" placeholder="password" >
+    </div>
+  
+    
+      <button #btnSignUp style=margin-top:10px mat-raised-button color="primary" type="submit" >Submit</button>
+      
+  </form>
+  </mat-card-content>
+  </mat-card>
+
+

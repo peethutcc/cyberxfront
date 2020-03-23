@@ -1,0 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+body{
+background-color:black;
+color: rgb(250, 243, 243);
+padding: 20px;
+
+
+}

@@ -1,0 +1,12 @@
+.textsub{
+    font-family:'Good Times';
+    margin-left: 13px;
+}
+.subli{
+    text-align:left;
+    padding-left:2em;
+    font-size:0.9em
+}
+.x{
+    color: red;
+}

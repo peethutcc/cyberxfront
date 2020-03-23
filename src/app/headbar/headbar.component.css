@@ -1,0 +1,149 @@
+.header{/*เปลี่ยนพื้นหลัง*/
+	/*background: url('../img/bgg.jpg');*/
+    padding: 45px 0px;
+}
+#logo {
+	font-size: 80px;
+	letter-spacing: 10px;
+	font-weight: 100;
+	color: white;
+	display: inline-block;
+	padding: 0px;
+    float: left;
+}
+a#logo:hover{
+	text-decoration: none;
+}
+.strong{
+	font-weight: 400;
+	
+}
+.strongx{
+	font-weight: 400;
+	color:red;
+}
+.header img{
+	width: 100%;
+}
+.top-bar{
+    width: 100%;
+}
+
+.fixed #logo{
+    font-size: 60px;
+}
+.fixed .nav-button{
+    margin: 15px 0px;
+}
+.nav-button{
+	max-width: 600px;
+	margin: 35px 0px;
+}
+.nav-button button{ /*เปลี่ยนสีปุ่มแฮม*/
+	border: none;
+	outline: none;
+	display: inline-block;
+	color: #fff;
+	border-radius: 0px;
+	cursor: pointer;
+	background-color: transparent;
+	float: right;
+	font-size: 42px;
+	/*border: 1px solid white;*/
+	padding: 0px 12px;
+}
+.nav-button button:hover{
+	color: rgb(87, 160, 255);
+	
+}
+.cen{
+	margin-right: 10px;
+}
+.customNavigation {
+    text-align:center;
+}
+
+.customNavigation a {
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.customNavigation{
+    top: 40%;
+    position: absolute;
+    display: block;
+    width: 100%;
+}
+.top-bar{
+    width: 100%;
+}
+.fixed { /*เปลี่ยนสี topbar*/
+    position: fixed;
+    background: #00cbcc;
+    top: 0;
+    z-index: 99;
+    transition: 1s;
+}
+.fixed #logo{
+    font-size: 60px;
+}
+
+.cen{
+	margin-right: 10px;
+}
+.navbar-white {
+      background-color: #fff !important;
+      transition: background 0.5s ease-out;
+      box-shadow: 0px 0px 10px #39c;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    /*background-color: rgb(235, 235, 235);*/
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    position: fixed;
+    background: #000000;
+    top: 0;
+    z-index: 99;
+    transition: 1s;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover { /*เปลี่ยนสีhovernav*/
+    color: #39c;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right:0;
+    font-size: 36px;
+    margin-right: 50px;
+  }
+  
+  #main {
+    transition: margin-right .5s;
+  
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

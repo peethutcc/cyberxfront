@@ -1,0 +1,39 @@
+#video{
+    padding-top:10px; 
+    padding-bottom:10px; 
+    text-align: center;
+    color: #ffffff;
+    background-color:#008a8a;
+}
+#sub {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1px;
+
+}
+div{
+    
+   
+    margin-bottom: 3px;
+
+}
+#video h2{
+    color: #ffffff;
+}
+#video p{
+    margin-top: 40px;
+	font-size: 30px;
+}
+
+.strong{
+    font-weight: 400;
+    color: #ffffff
+	
+}
+.strongx{
+	font-weight: 400;
+	color:red;
+}
+#video h1 {
+    
+}

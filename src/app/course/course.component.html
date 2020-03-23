@@ -1,0 +1,56 @@
+<!-- HTML Passthru: data-component-version="1.4" -->
+<div id="course" style="margin:50px; "></div>
+<section  >
+    <div  #course class="header" style="text-align: center;padding:100px;padding-bottom: 50px;">
+        <h1 style="color:#FFFFFF;font-family:'Good Times'">Cyber<strong class ="x">X</strong>: Course Portal</h1>
+    </div>
+    <div style="z-index: 99;padding-left:100px;padding-right:100px;margin-bottom: 200px;">
+        <div class="row"  >
+            <div class="row">
+                <div class="col-sm-3 courseicon iconunix" style="padding:0px">
+                    <a (click)="openUnixDialog()" >
+                        <img class="" src="./assets/img/unix.PNG" style="width:100%;height:auto;padding:10px">
+                        <div class="carousel-caption">
+                            <h1 style="font-size:22px">Unix</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-3 courseicon iconwindows" style="padding:0px;">
+                    <a (click)="openWindowsDialog()" >
+                        <img class="courseicon" src="./assets/img/syssandbox.PNG"
+                            style="width:100%;height:auto;padding:10px">
+                        <div class="carousel-caption">
+                            <h1 style="font-size:22px">Windows</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-3 courseicon iconnetwork" style="padding:0px">
+                    <a (click)="openNetworkDialog()" >
+                        <img class="courseicon" src="./assets/img/network.PNG"
+                            style="width:100%;height:auto;padding:10px">
+                        <div class="carousel-caption">
+                            <h1 style="font-size:22px">Network</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-3 courseicon iconpenetration" style="padding:0px">
+                    <a (click)="openCyberDialog()" >
+                        <img class="courseicon" src="../assets/img/penetration.PNG"
+                            style="width:100%;height:auto;padding:10px">
+                        <div class="carousel-caption">
+                            <h1 style="font-size:22px">Cybersecurity</h1>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div *ngFor="let element of Element" >
+   
+        <a  href="#course">{{element.coursename}}</a>
+     
+   
+   
+</div>
